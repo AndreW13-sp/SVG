@@ -1874,7 +1874,7 @@ button[type="submit"] {
   margin-bottom: 20px;
 }
 .apartment h2 span {
-  color: #9f8054;
+  color: #013d84;
 }
 .apartment h6 {
   margin-bottom: 15px;
@@ -1914,9 +1914,11 @@ button[type="submit"] {
   margin-bottom: 40px;
 }
 .apartment blockquote p {
+  color: white;
   margin: 0;
 }
 .apartment blockquote strong {
+  color: white;
   font-size: 20px;
 }
 .apartment figure {
@@ -1938,7 +1940,7 @@ button[type="submit"] {
 }
 .apartment .property-infos {
   display: inline-block;
-  background: #9f8054;
+  background: #013d84;
   color: #fff;
   padding: 50px;
   margin-bottom: 50px;
