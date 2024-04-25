@@ -923,15 +923,6 @@ button[type="submit"] {
   position: absolute;
   left: 0;
   top: 0;
-  background: #80c2f7;
-  background: -moz-linear-gradient(161deg, #ffff 0%, #80c2f7 49%, #ffffff 100%);
-  background: -webkit-linear-gradient(
-    161deg,
-    #ffffff 0%,
-    #80c2f7 49%,
-    #ffffff 100%
-  );
-  background: linear-gradient(161deg, #ffffff 0%, #80c2f7 49%, #ffffff 100%);
   opacity: 0.5;
 }
 
