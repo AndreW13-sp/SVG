@@ -1117,6 +1117,9 @@ button[type="submit"] {
   font-size: 14px;
   line-height: 1;
   cursor: pointer;
+  background-color: rgba(110, 167, 241, 0.8);
+  border-radius: 10px;
+  padding: 4px;
 }
 .slider .slider-container .inner-elements .container .button-prev:hover {
   color: #013d84;
@@ -1129,6 +1132,9 @@ button[type="submit"] {
   position: absolute;
   right: calc(-100% - 20px);
   top: 5px;
+  background-color: rgba(110, 167, 241, 0.8);
+  border-radius: 20px;
+  padding: 2px;
 }
 .slider .slider-container .inner-elements .container .button-next {
   width: 40px;
@@ -1149,6 +1155,9 @@ button[type="submit"] {
   font-size: 14px;
   line-height: 1;
   cursor: pointer;
+  background-color: rgba(110, 167, 241, 0.8);
+  border-radius: 10px;
+  padding: 4px;
 }
 .slider .slider-container .inner-elements .container .button-next:hover {
   color: #013d84;
