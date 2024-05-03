@@ -228,20 +228,20 @@ button[type="submit"] {
 
 /* GALLERY SLIDER*/
 .gallery-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    margin: 30px 0;
-    background: #26282b;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: 30px 0;
+  background: #26282b;
 }
 
 .gallery-container .swiper-wrapper {
-    width: 100%;
-    float: left;
-    position: relative;
+  width: 100%;
+  float: left;
+  position: relative;
 }
 
 .gallery-container .swiper-slide {
@@ -868,13 +868,20 @@ button[type="submit"] {
 .navbar .container .menu ul li ul li a:hover {
   border-color: transparent;
 }
+.navbar .container .menu ul {
+  margin-top: 40px;
+}
+
 .navbar .container .menu ul li a {
   color: #333333;
-  display: inline-block;
+  display: inline; /* Change display to inline */
   font-weight: 600;
-  padding: 25px 0;
+  padding: 10px 10px; /* Adjust padding as needed */
   border-top: 1px solid transparent;
+  background-color: rgba(110, 167, 241, 0.8);
+  border-radius: 20px; /* Adjust border-radius to make it round */
 }
+
 .navbar .container .menu ul li a:hover {
   text-decoration: none;
   color: #013d84;
